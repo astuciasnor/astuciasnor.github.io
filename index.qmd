@@ -1,0 +1,19 @@
+---
+title: "Evaldo Martins da Silva"
+image: perfil-evaldo.png
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com/astuciasnor
+---
+
+**Evaldo Silva** é Professor Associado da UFPA, com doutorado em Ciências Agronômicas e Engenharia Biológica (UCL, Bélgica), revalidado em Ciência e Tecnologia de Alimentos (UFV-MG). Atua nas áreas de Engenharia de Pesca, Ciência dos Alimentos e Estatística Aplicada, com foco em desenvolvimento de processos, métodos analíticos e análise multivariada de dados.
+
+Especialista em design de experimentos, quimiometria e modelagem estatística aplicada a dados químicos e espectroscópicos, tem mais de 1200 citações e índice H 11. Com uma trajetória marcada pela multidisciplinaridade, une conhecimento técnico à clareza didática no ensino e na pesquisa.
+
+Evaldo também é entusiasta da programação em R e Python, integrando ciência, dados e tecnologia para criar soluções elegantes, eficientes e inovadoras.

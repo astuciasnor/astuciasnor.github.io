@@ -1,0 +1,15 @@
+{
+  "hash": "e001892d0566d6c17c6cfebe6c661198",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Análise de Componenetes Principal\"\nauthor: \"Evaldo Silva\"\ndate: \"2025-04-12\"\ncategories: [code, analysis, R]\nimage: \"image.jpg\"\n---\n\n\n\nEste é um projeto feito com dados da página da internet. Você pode encontrar [aqui](https://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/){target=\"_blank\"}. Veja como inserir link a partir do minuto 19 no video do [youtube](https://www.youtube.com/watch?v=OlvO-EG-P60){target=\"_blank\"}. Cor do fundo no minuto 22.\n\n\\\nPara pegar os dados do projeto my_website e poder publicar como\n\n<https://astuciasnor.github.io/>\n\nVocê deve fazer o seguinte:\n\n-   Criar um repositório com o nome **astuciasnor.github.io** via site do github (colocar gitignore: para R; Licença: para MIT\n-   Clonar este repositório via RStudio\n-   Copiar todos os arquivos da pasta **my_website** em que fiz um modelo simples de blog para astuciasnor.github.io\n-   Renomear o arquivo my_website.Rproj para [astuciasnor.github.io](https://astuciasnor.github.io/).Rproj\n-   Trocar pasta \\_site para docs, fazendo abaixo de type no yml: output-dir: \"docs\"\n-   Enviar arquivos para o github\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
