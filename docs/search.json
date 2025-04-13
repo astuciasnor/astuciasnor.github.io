@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Evaldo Martins da Silva",
+    "section": "",
+    "text": "Evaldo Silva é Professor Associado da UFPA, com doutorado em Ciências Agronômicas e Engenharia Biológica (UCL, Bélgica), revalidado em Ciência e Tecnologia de Alimentos (UFV-MG). Atua nas áreas de Engenharia de Pesca, Ciência dos Alimentos e Estatística Aplicada, com foco em desenvolvimento de processos, métodos analíticos e análise multivariada de dados.\nEspecialista em design de experimentos, quimiometria e modelagem estatística aplicada a dados químicos e espectroscópicos, tem mais de 1200 citações e índice H 11. Com uma trajetória marcada pela multidisciplinaridade, une conhecimento técnico à clareza didática no ensino e na pesquisa.\nEvaldo também é entusiasta da programação em R e Python, integrando ciência, dados e tecnologia para criar soluções elegantes, eficientes e inovadoras."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Meu Portfólio",
+    "section": "",
+    "text": "Este é meu Portfolio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de Componenetes Principal\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nApr 12, 2025\n\n\nEvaldo Silva\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 9, 2025\n\n\nEvaldo Silva\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Análise de Componenetes Principal",
+    "section": "",
+    "text": "Este é um projeto feito com dados da página da internet. Você pode encontrar aqui. Veja como inserir link a partir do minuto 19 no video do youtube. Cor do fundo no minuto 22.\n\nPara pegar os dados do projeto my_website e poder publicar como\nhttps://astuciasnor.github.io/\nVocê deve fazer o seguinte:\n\nCriar um repositório com o nome astuciasnor.github.io via site do github (colocar gitignore: para R; Licença: para MIT\nClonar este repositório via RStudio\nCopiar todos os arquivos e pastas da pasta my_blog em que fiz um modelo simples de blog para a pasta astuciasnor.github.io. Obs: só copie os arquivos e pastas diferentes daqueles da pasta astuciasnor.github.io.\nO arquivo de projeto deverá ser astuciasnor.github.io.Rproj\nTrocar de _site para docs, fazendo abaixo de type no .yml: output-dir: “docs”\nVeja se a pasta docs está no gitignore e remova-a\nEnviar arquivos para o github\nMudar em Setting –&gt; Pages para docs e salvar.\n\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]
