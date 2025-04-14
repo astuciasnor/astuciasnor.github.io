@@ -1,0 +1,15 @@
+{
+  "hash": "63cf39755b246e16f6120a87826fbf8a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Preferências do RStudio\"\nauthor: \"Evaldo Silva\"\ndate: \"2025-04-14\"\ncategories: [rstudio, R]\nimage: ajuste_rstudio.png\n---\n\n\n\n![](ajuste_rstudio.png){width=\"183\"}\n\n### ⚙️ Ajustes essenciais para turbinar sua produtividade no RStudio\n\nAbaixo, apresento um conjunto enxuto e eficaz de configurações que recomendo aplicar à IDE RStudio, com foco em aumentar sua produtividade, melhorar a leitura do código e garantir um ambiente de trabalho mais fluido e confiável.\n\nUtilize o pacote `{rstudio.prefs}` para aplicar essas preferências de forma automatizada:\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Instale o pacote, se necessário\n# install.packages(\"rstudio.prefs\")\n\nlibrary(rstudio.prefs)\n\nuse_rstudio_prefs(\n  # Editor\n  soft_wrap_r_files = TRUE,\n  show_line_numbers = TRUE,\n  rainbow_parens = TRUE,\n  highlight_selected_line = TRUE,\n  auto_match_parens = TRUE,\n\n  # Workspace\n  load_workspace = FALSE,\n  save_workspace = \"never\",\n\n  # Aparência\n  editor_theme = \"Tomorrow Night Bright\",  # ou outro com bom contraste e parênteses destacados\n\n  # Atualizações e diagnósticos\n  check_for_updates = TRUE,\n  send_crash_reports = TRUE\n)\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

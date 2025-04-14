@@ -11,7 +11,7 @@
     "href": "portfolio.html",
     "title": "Meu Portfólio",
     "section": "",
-    "text": "Este é meu Portfolio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de Componenetes Principal\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nApr 12, 2025\n\n\nEvaldo Silva\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 9, 2025\n\n\nEvaldo Silva\n\n\n\n\n\n\nNo matching items"
+    "text": "Este é meu Portfolio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreferências do RStudio\n\n\n\n\n\n\nrstudio\n\n\nR\n\n\n\n\n\n\n\n\n\nApr 14, 2025\n\n\nEvaldo Silva\n\n\n\n\n\n\n\n\n\n\n\n\nPublicando Site Quarto no Github\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nApr 13, 2025\n\n\nEvaldo Silva\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 9, 2025\n\n\nEvaldo Silva\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,19 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/rstudio-prefencias/index.html",
+    "href": "posts/rstudio-prefencias/index.html",
+    "title": "Preferências do RStudio",
+    "section": "",
+    "text": "⚙️ Ajustes essenciais para turbinar sua produtividade no RStudio\nAbaixo, apresento um conjunto enxuto e eficaz de configurações que recomendo aplicar à IDE RStudio, com foco em aumentar sua produtividade, melhorar a leitura do código e garantir um ambiente de trabalho mais fluido e confiável.\nUtilize o pacote {rstudio.prefs} para aplicar essas preferências de forma automatizada:\n\n# Instale o pacote, se necessário\n# install.packages(\"rstudio.prefs\")\n\nlibrary(rstudio.prefs)\n\nuse_rstudio_prefs(\n  # Editor\n  soft_wrap_r_files = TRUE,\n  show_line_numbers = TRUE,\n  rainbow_parens = TRUE,\n  highlight_selected_line = TRUE,\n  auto_match_parens = TRUE,\n\n  # Workspace\n  load_workspace = FALSE,\n  save_workspace = \"never\",\n\n  # Aparência\n  editor_theme = \"Tomorrow Night Bright\",  # ou outro com bom contraste e parênteses destacados\n\n  # Atualizações e diagnósticos\n  check_for_updates = TRUE,\n  send_crash_reports = TRUE\n)"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#como-publicar-um-site-quarto-no-github-pages",
+    "href": "posts/post-with-code/index.html#como-publicar-um-site-quarto-no-github-pages",
+    "title": "Publicando Site Quarto no Github",
+    "section": "🚀 Como Publicar um Site Quarto no GitHub Pages",
+    "text": "🚀 Como Publicar um Site Quarto no GitHub Pages\nPublicar um site feito com Quarto usando o GitHub Pages é uma maneira prática e gratuita de compartilhar seu conteúdo online. Abaixo, apresento um passo a passo simples e eficaz para configurar tudo corretamente.\n\n🌐 Pré-requisitos\nAntes de começar, certifique-se de ter:\n\nUma conta ativa no GitHub\nO Git instalado e configurado no seu sistema\nO R, RStudio e o pacote quarto instalados\n\n\n\n🛠️ 1. Criar o repositório no GitHub\n\nAcesse github.com e clique em New Repository.\nDê ao repositório o nome exato:\nnome-de-usuario.github.io\n(substitua pelo seu nome de usuário real do GitHub)\nMarque as opções: - ✅ Adicionar .gitignore (selecione R) - ✅ Escolher uma licença (como MIT)\n\n\n\n💻 2. Clonar o repositório via RStudio\n\nNo RStudio, vá em:\nFile &gt; New Project &gt; Version Control &gt; Git\nCole a URL do repositório, algo como:\nhttps://github.com/nome-de-usuario/nome-de-usuario.github.io.git\nEscolha uma pasta local e clique em Create Project.\n\n\n\n📁 3. Copiar os arquivos do seu blog/site\n\nCopie os arquivos e pastas do seu projeto Quarto (ex: my_blog/) para dentro da pasta do novo repositório. Você pode ver como criar um Blog em Quarto no Rstudio clicando neste vídeo tutorial do youtube.\n⚠️ Não sobrescreva arquivos já existentes, como .gitignore ou o .Rproj.\nCertifique-se de que o nome do arquivo de projeto seja:\nnome-de-usuario.github.io.Rproj\n\n\n\n⚙️ 4. Ajustar o arquivo _quarto.yml\n\nLocalize e abra o arquivo _quarto.yml do seu projeto.\nAdicione a linha abaixo de type: para que a saída vá para a pasta docs:\n\n\n\n\n🚫 5. Verificar o arquivo .gitignore\n\nVerifique se a pasta docs/ não está listada no arquivo .gitignore.\nCaso esteja, remova a linha com docs/.\n\n\n\n🧪 6. Renderizar o site localmente\nNo console do RStudio, execute:\n\nquarto::quarto_render()\n\nIsso criará a pasta docs/ com os arquivos HTML renderizados.\n\n\n🟢 7. Commit e push para o GitHub\nNo terminal ou via interface Git do RStudio:\n\n\n\n⚙️ 8. Configurar o GitHub Pages\n\nNo seu repositório GitHub, vá em:\nSettings &gt; Pages\nEm Source, selecione:\n\nBranch: main\nFolder: /docs\nClique em Save\n\n\n\n\n🎉 9. Pronto!\nAguarde alguns segundos e seu site estará acessível em:\n\nhttps://nome-de-usuario.github.io/"
   }
 ]

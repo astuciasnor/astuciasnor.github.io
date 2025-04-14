@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Evaldo Silva">
-<meta name="dcterms.date" content="2025-04-12">
+<meta name="dcterms.date" content="2025-04-13">
 
-<title>Análise de Componenetes Principal – Evaldo Martins da Silva</title>
+<title>Publicando Site Quarto no Github – Evaldo Martins da Silva</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,10 +71,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -159,7 +159,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Análise de Componenetes Principal</h1>
+      <h1 class="title">Publicando Site Quarto no Github</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">code</div>
                 <div class="quarto-category">analysis</div>
@@ -181,7 +181,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 12, 2025</p>
+        <p class="date">April 13, 2025</p>
       </div>
     </div>
     
@@ -200,29 +200,103 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>Este é um projeto feito com dados da página da internet. Você pode encontrar <a href="https://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/" target="_blank">aqui</a>. Veja como inserir link a partir do minuto 19 no video do <a href="https://www.youtube.com/watch?v=OlvO-EG-P60" target="_blank">youtube</a>. Cor do fundo no minuto 22.</p>
-<p><br>
-Para pegar os dados do projeto my_website e poder publicar como</p>
-<p><a href="https://astuciasnor.github.io/" class="uri">https://astuciasnor.github.io/</a></p>
-<p>Você deve fazer o seguinte:</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="github-pages.png" class="img-fluid quarto-figure quarto-figure-left figure-img" width="452"></p>
+</figure>
+</div>
+<section id="como-publicar-um-site-quarto-no-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="como-publicar-um-site-quarto-no-github-pages">🚀 Como Publicar um Site Quarto no GitHub Pages</h2>
+<p>Publicar um site feito com Quarto usando o GitHub Pages é uma maneira prática e gratuita de compartilhar seu conteúdo online. Abaixo, apresento um passo a passo simples e eficaz para configurar tudo corretamente.</p>
+<section id="pré-requisitos" class="level3">
+<h3 class="anchored" data-anchor-id="pré-requisitos">🌐 Pré-requisitos</h3>
+<p>Antes de começar, certifique-se de ter:</p>
 <ul>
-<li>Criar um repositório com o nome <strong>astuciasnor.github.io</strong> via site do github (colocar gitignore: para R; Licença: para MIT</li>
-<li>Clonar este repositório via RStudio</li>
-<li>Copiar todos os arquivos e pastas da pasta <strong>my_blog</strong> em que fiz um modelo simples de blog para a pasta astuciasnor.github.io. Obs: só copie os arquivos e pastas diferentes daqueles da pasta astuciasnor.github.io.</li>
-<li>O arquivo de projeto deverá ser <a href="#0">astuciasnor.github.io</a>.Rproj</li>
-<li>Trocar de _site para docs, fazendo abaixo de type no .yml: output-dir: “docs”</li>
-<li>Veja se a pasta docs está no gitignore e remova-a</li>
-<li>Enviar arquivos para o github</li>
-<li>Mudar em Setting –&gt; Pages para docs e salvar.</li>
+<li>Uma conta ativa no <a href="https://github.com">GitHub</a></li>
+<li>O Git instalado e configurado no seu sistema</li>
+<li>O R, RStudio e o pacote <code>quarto</code> instalados</li>
 </ul>
+</section>
+<section id="criar-o-repositório-no-github" class="level3">
+<h3 class="anchored" data-anchor-id="criar-o-repositório-no-github">🛠️ 1. Criar o repositório no GitHub</h3>
+<ol type="1">
+<li>Acesse <a href="https://github.com">github.com</a> e clique em <strong>New Repository</strong>.</li>
+<li>Dê ao repositório o nome exato:<br>
+<strong><code>nome-de-usuario.github.io</code></strong><br>
+<em>(substitua pelo seu nome de usuário real do GitHub)</em></li>
+<li>Marque as opções: - ✅ Adicionar <code>.gitignore</code> (selecione <code>R</code>) - ✅ Escolher uma licença (como MIT)</li>
+</ol>
+</section>
+<section id="clonar-o-repositório-via-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="clonar-o-repositório-via-rstudio">💻 2. Clonar o repositório via RStudio</h3>
+<ol type="1">
+<li><p>No RStudio, vá em:<br>
+<code>File &gt; New Project &gt; Version Control &gt; Git</code></p></li>
+<li><p>Cole a URL do repositório, algo como:<br>
+<code>https://github.com/nome-de-usuario/nome-de-usuario.github.io.git</code></p></li>
+<li><p>Escolha uma pasta local e clique em <strong>Create Project</strong>.</p></li>
+</ol>
+</section>
+<section id="copiar-os-arquivos-do-seu-blogsite" class="level3">
+<h3 class="anchored" data-anchor-id="copiar-os-arquivos-do-seu-blogsite">📁 3. Copiar os arquivos do seu blog/site</h3>
+<ol type="1">
+<li>Copie os arquivos e pastas do seu projeto Quarto (ex: <code>my_blog/</code>) para dentro da pasta do novo repositório. Você pode ver <strong>como criar um Blog em Quarto no Rstudio</strong> clicando neste vídeo <a href="https://www.youtube.com/watch?v=OlvO-EG-P60" target="_blank">tutorial</a> do youtube.</li>
+<li>⚠️ Não sobrescreva arquivos já existentes, como <code>.gitignore</code> ou o <code>.Rproj</code>.</li>
+<li>Certifique-se de que o nome do arquivo de projeto seja:<br>
+<strong><code>nome-de-usuario.github.io.Rproj</code></strong></li>
+</ol>
+</section>
+<section id="ajustar-o-arquivo-_quarto.yml" class="level3">
+<h3 class="anchored" data-anchor-id="ajustar-o-arquivo-_quarto.yml">⚙️ 4. Ajustar o arquivo <code>_quarto.yml</code></h3>
+<ol type="1">
+<li>Localize e abra o arquivo <code>_quarto.yml</code> do seu projeto.</li>
+<li><strong>Adicione a linha abaixo de <code>type:</code></strong> para que a saída vá para a pasta <code>docs</code>:</li>
+</ol>
+<p><img src="images/yml.png" class="img-fluid"></p>
+</section>
+<section id="verificar-o-arquivo-.gitignore" class="level3">
+<h3 class="anchored" data-anchor-id="verificar-o-arquivo-.gitignore">🚫 5. Verificar o arquivo <code>.gitignore</code></h3>
+<ul>
+<li>Verifique se a pasta <code>docs/</code> não está listada no arquivo <code>.gitignore</code>.</li>
+<li>Caso esteja, remova a linha com <code>docs/</code>.</li>
+</ul>
+</section>
+<section id="renderizar-o-site-localmente" class="level3">
+<h3 class="anchored" data-anchor-id="renderizar-o-site-localmente">🧪 6. Renderizar o site localmente</h3>
+<p>No console do RStudio, execute:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div>
+<p>Isso criará a pasta <code>docs/</code> com os arquivos HTML renderizados.</p>
+</section>
+<section id="commit-e-push-para-o-github" class="level3">
+<h3 class="anchored" data-anchor-id="commit-e-push-para-o-github">🟢 7. Commit e push para o GitHub</h3>
+<p>No terminal ou via interface Git do RStudio:</p>
+<p><img src="images/comando-git.png" class="img-fluid"></p>
+</section>
+<section id="configurar-o-github-pages" class="level3">
+<h3 class="anchored" data-anchor-id="configurar-o-github-pages">⚙️ 8. Configurar o GitHub Pages</h3>
+<ol type="1">
+<li><p>No seu repositório GitHub, vá em:<br>
+<code>Settings &gt; Pages</code></p></li>
+<li><p>Em <strong>Source</strong>, selecione:</p>
+<ul>
+<li><p><strong>Branch:</strong> <code>main</code></p></li>
+<li><p><strong>Folder:</strong> <code>/docs</code></p></li>
+<li><p>Clique em <strong>Save</strong></p></li>
+</ul></li>
+</ol>
+</section>
+<section id="pronto" class="level3">
+<h3 class="anchored" data-anchor-id="pronto">🎉 9. Pronto!</h3>
+<p>Aguarde alguns segundos e seu site estará acessível em:</p>
+<blockquote class="blockquote">
+<p><strong>https://nome-de-usuario.github.io/</strong></p>
+</blockquote>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
