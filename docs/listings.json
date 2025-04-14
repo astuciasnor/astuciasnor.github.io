@@ -3,7 +3,8 @@
     "listing": "/portfolio.html",
     "items": [
       "/posts/rstudio-prefencias/index.html",
-      "/posts/post-with-code/index.html",
+      "/posts/publicando-site-github/index.html",
+      "/posts/Instalacao_R_Rtools/index.html",
       "/posts/welcome/index.html"
     ]
   }

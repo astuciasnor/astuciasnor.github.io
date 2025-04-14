@@ -1,6 +1,6 @@
 ---
 title: "Evaldo Martins da Silva"
-image: perfil-evaldo.png
+image: logo-astucias.png
 about:
   template: jolla
   links:
