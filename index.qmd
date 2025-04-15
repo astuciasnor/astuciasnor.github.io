@@ -12,8 +12,10 @@ about:
       href: https://github.com/astuciasnor
 ---
 
-**Evaldo Silva** é Professor Associado da UFPA, com doutorado em Ciências Agronômicas e Engenharia Biológica (UCL, Bélgica), revalidado em Ciência e Tecnologia de Alimentos (UFV-MG). Atua nas áreas de Engenharia de Pesca, Ciência dos Alimentos e Estatística Aplicada, com foco em desenvolvimento de processos, métodos analíticos e análise multivariada de dados.
+Professor Associado IV da Universidade Federal do Pará (UFPA), com atuação destacada nas áreas de Ciência e Tecnologia de Alimentos, Química Analítica e Estatística Aplicada. Possui doutorado em Ciências Agronômicas e Engenharia Biológica pela Université Catholique de Louvain (UCL – Bélgica), revalidado em Ciência e Tecnologia de Alimentos pela Universidade Federal de Viçosa (UFV-MG), mestrado em Engenharia Química e graduação em Química Industrial, ambos pela UFPA.
 
-Especialista em design de experimentos, quimiometria e modelagem estatística aplicada a dados químicos e espectroscópicos, tem mais de 1200 citações e índice H 11. Com uma trajetória marcada pela multidisciplinaridade, une conhecimento técnico à clareza didática no ensino e na pesquisa.
+Tem experiência consolidada em Estatística Aplicada, com ênfase em delineamento de experimentos e análise multivariada de dados. Aplica metodologias avançadas, como a Metodologia de Superfície de Resposta (MSR), para otimização de processos na área de alimentos e pesca, contribuindo com abordagens quimiométricas robustas voltadas à interpretação de dados experimentais e ao desenvolvimento de modelos preditivos.
 
-Evaldo também é entusiasta da programação em R e Python, integrando ciência, dados e tecnologia para criar soluções elegantes, eficientes e inovadoras.
+Atua na otimização de processos tecnológicos relacionados ao aproveitamento de resíduos da indústria pesqueira — carcaças, peles e resíduos da filetagem — visando a produção de subprodutos com valor agregado, como quitina, quitosana, hidrolisados proteicos, gelatina e óleo de peixe. Seu trabalho busca soluções sustentáveis e economicamente viáveis para a valorização de subprodutos do pescado.
+
+Na área analítica, é especialista em técnicas aplicadas à caracterização de alimentos e biomateriais, com ênfase em Espectrofotometria na região UV-Visível, Espectroscopia no Infravermelho Próximo (NIR) e Cromatografia Gasosa, especialmente voltada à análise de ácidos graxos.
